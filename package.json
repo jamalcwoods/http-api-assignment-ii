@@ -1,0 +1,30 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "Basic API for getting and updating a user list",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests completed\""
+  },
+  "engines": {
+    "node": "10.12.0",
+    "npm": "5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamalcwoods/http-api-assignment-ii.git"
+  },
+  "author": "Jamal Woods",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jamalcwoods/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/jamalcwoods/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
